@@ -9,9 +9,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid m">
-              <a class="navbar-brand" href="#">Portfolio</a>
+        <nav class="navbar navbar-expand-lg bg-dark text-info px-5">
+            <div class="container-fluid">
+              <a class="navbar-brand text-info" href="#">Portfolio</a>
             <a class="nav-link align-items-end text-uppercase" href="#">Contact me</a>
             </div>
           </nav>
@@ -32,14 +32,48 @@
             <h2 class="text-center m-3 text-uppercase">Portfolio</h2>
 
         </div>
-        <div class="bg-info text-center p-4">
+        <div class="bg-info p-4">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row">
                     <div class="col">
-                        <h1 class="text-uppercase">Want an offer?</h1>
-                        
+                        <h2 class="text-uppercase text-center">Want an offer?</h2>
+                        <form class="row g-3 my-3">
+                            <div class="col-md-6">
+                              <label for="inputEmail4" class="form-label">First name</label>
+                              <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputPassword4" class="form-label">Last name</label>
+                              <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Hours requested</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputState" class="form-label">Type of work</label>
+                                <select id="inputState" class="form-select">
+                                  <option selected>Backend development</option>
+                                  <option>Frontend development</option>
+                                  <option>Project analysis</option>
+                                </select>
+                                </div>
+                              <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Discount code</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                              </div>
+                            <div class="col-12">
+                              <button type="submit" class="btn btn-primary bg-warning text-black">Send</button>
+                            </div>
+                          </form>
+                          <h4>Il prezzo finale è di: 153.75</h2>
                     </div>
                 </div>
+                
             </div>
         </div>
     </main>
